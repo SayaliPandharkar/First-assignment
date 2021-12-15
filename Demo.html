@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+
+
+    <title>Embold Technology</title>
+    
+    <link  rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+
+<body>
+
+  
+
+  <div id="leftcol">
+
+
+    <div id="lefticon">
+      <div class="items" id="first">
+        <img src="file:///C:/Users/Sayali/Downloads/search-solid.svg" alt="mylogo" width :20px; height="20px" ></div> 
+        
+      </div>
+      <div class="items">
+        <img src="file:///C:/Users/Sayali/Downloads/home-solid.svg" alt="mylogo" width :20px; height="20px" >
+      </div> 
+        
+      <div class="items">
+        <img src="file:///C:/Users/Sayali/Downloads/chart-line-solid.svg" alt="mylogo" width :20px; height="20px" ></div> 
+
+      
+      <div class="items">
+        <img src="file:///C:/Users/Sayali/Downloads/user-friends-solid.svg" alt="mylogo" width :20px; height="20px" ></div> 
+
+      
+
+      <div class="items">
+        <img src="file:///C:/Users/Sayali/Downloads/cog-solid%20(2).svg" alt="mylogo" width :20px; height="20px" ></div> 
+
+      
+
+    </div>
+
+     
+
+  </div>
+
+
+  <div id="topcol">
+      <div id="nav">
+          
+            <div id="logo">
+              <div id="logoimg">
+                <img src="file:///C:/Users/Sayali/Downloads/embold-logo.svg" alt="mylogo" width :20px; height="20px" ></div>
+              <div>
+
+              </div>
+            </div>
+          <div id="title">
+            RENNE MCKELVEY<br>
+            <div id="title1">
+               Account Settings
+            </div>
+
+          </div>
+ 
+        
+      </div>
+
+      <div id="section">
+
+        <div id="searchbox">
+          <div id="serachhead">
+            <h2>User List</h2>
+          </div>
+
+          <div class="container">
+
+            <form  class="box-1">
+                <img src="search.png" class="mylink img">
+              <button type="submit" placeholder="Search" class="mylink">
+                 
+              </button>
+              <input type="search" placeholder="Search" class="myfield" />
+            </form>>
+            </div>
+        </div>
+
+
+
+
+        <div id="tablebox">
+          <table style="width:100%">
+            <tr>
+              <th>Name </th>
+              <th>Roll</th> 
+              <th>Actions</th>
+            </tr>
+            <tr>
+              <td>Ada Lovelace </td>
+              <td>ADmin</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Grace Hopper</td>
+              <td>Developer</td>
+              <td>94</td>
+            </tr>
+            <tr>
+              <td>Margarel Hamilton</td>
+              <td>QA</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Joan Clarke</td>
+              <td>Manager</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+
+
+
+        <div id="twocol">
+          <div id="formtag">
+            <div class=level3>
+  
+              <h2 id="heading"> New User Details </h2>  
+    
+            <formtag action="/">
+    
+              <input type ="text" placeholder="UserName"  name="Username" id="input1" required>
+
+              <input type ="email" pattern="[0-9]+" required title="Invalid email" placeholder="Email" name="Email" required ><br><br><br>
+
+              <input type ="text" placeholder="FirstName"  name="Firstname" id="input2" required> 
+
+              <input type ="text" placeholder="LastName" name="Lastname" required ><br><br><br>
+
+              <input type ="submit">
+
+
+    
+                <select  id="select" >
+    
+                  <option value="" disabled selected>Role</option>
+                  <option value="1">ADmin</option>
+                  <option value="2">Developer</option>
+                  <option value="3">QA</option>
+                  <option value="4">Manager</option>
+    
+              
+                 </select>
+                 <br><br>
+    
+                <input type ="checkbox" checked >Send Email Confirmation<br><br>
+                 
+            </div>
+
+
+
+
+              <div class=level4>
+
+              <a href="" id="button1"  onclick=Adduser()>Add User</a>
+              
+              <a href="" id="button2" >Cancel</a>
+              
+
+
+              <script>
+
+                      function Adduser ()
+                      {
+                       var isconfirm ;
+                       isconfirm = window.confirm("Do you want to save the details?");
+                          if(isconfirm==true)
+                              alert("Record saved successfully");
+                      }  
+
+               </script>
+
+
+
+            </formtag>
+
+              </div>
+            </div>
+              <div id="imgbox">
+                <h2 id="heading"> Profile Picture </h2>
+
+                <img src="file:///C:/Users/Sayali/Downloads/image-outline.svg" alt="Profile Picture" id="img">
+                <a href=""  id="button3" onclick=SelectImage()>select image</a>
+
+
+                <script>
+
+                  function SelectImage ()
+                  {
+                   var image ;
+                   image = window.confirm("Image should be of png or jpg type.Size should be 1KB");
+                          
+                  }  
+
+           </script>
+
+              </div>
+
+        </div>
+
+         
+        </div>
+      </div>
+  
+
+  </div>
